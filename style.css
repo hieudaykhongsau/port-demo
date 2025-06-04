@@ -1,3 +1,4 @@
+@@ -0,0 +1,279 @@
 *,
 *::before,
 *::after {
@@ -213,7 +214,7 @@ header {
 }
 
 .banner_heading {
-    max-width: 90%;
+    max-width: 300px;
     margin: 0 auto;
     text-align: center;
     color: var(--black);
@@ -257,53 +258,6 @@ header {
     transition: var(--smooth);
 }
 
-@media (max-width: 61.99em) {
-    .navbar_link {
-        margin: 25px; /* Giảm khoảng cách để dễ nhìn trên mobile */
-        text-align: center;
-    }
-
-    .banner_heading h1 {
-        font-size: 1.8rem;
-        padding-top: 3em;
-        margin: 0 1em 1em;
-    }
-
-    .banner_heading p {
-        font-size: 1rem;
-        line-height: 1.6em;
-        margin: 0 1.5em 1.5em;
-    }
-
-    .banner_btn {
-        display: block;
-        margin: 1em auto;
-    }
-
-    .banner_socials {
-        font-size: 1.2rem;
-        margin: 1em auto;
-        justify-content: center;
-    }
-
-    .banner_socials a {
-        margin: 0 10px;
-    }
-
-    .navbar_links {
-        width: 80%; /* Chiếm ít không gian hơn */
-    }
-
-    .navbar_icons {
-        top: 15px;
-        right: 15px;
-    }
-
-    .container {
-        padding: 0 1rem;
-    }
-}
-
 @media (min-width: 62em) {
     .banner_heading {
         text-align: initial;
@@ -321,7 +275,6 @@ header {
 
     .banner_img {
         width: 60%;
-        height: fit-content;
     }
 
 }
