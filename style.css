@@ -303,3 +303,25 @@ header {
         padding: 0 1rem;
     }
 }
+
+@media (min-width: 62em) {
+    .banner_heading {
+        text-align: initial;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .banner_socials {
+        justify-content: flex-start;
+    }
+
+    .banner_socials a {
+        margin-right: 45px;
+    }
+
+    .banner_img {
+        width: 60%;
+        height: fit-content;
+    }
+
+}
